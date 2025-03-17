@@ -11,7 +11,7 @@
     </div>
 
     <div class="listOfReadings">
-        {% for post in site.categories.readings %}
+        {% for post in site.categories.readings | sort: "week" %}
         <a href="{{ post.link }}">
             <div class="work {{ post.color }}">
             

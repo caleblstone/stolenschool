@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+
+collections:
+  - name: "work"
+    label: "Work" 
+    folder: "_posts/work"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "string", default: "individual_work_layout" }
+      - { label: "Categories", name: "categories", widget: "string", default: "work" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Production Date", name: "production_date", widget: "string" }
+      - { label: "Materials", name: "materials", widget: "string" }
+      - { label: "Dimensions", name: "dimensions", widget: "string" }
+      - { label: "Images", name: "images", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "text"
+    label: "Text" 
+    folder: "_posts/text"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "string", default: "individual_text_layout" }
+      - { label: "Categories", name: "categories", widget: "string", default: "text" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Production Date", name: "production_date", widget: "string" }
+      - { label: "Type", name: "type", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "community"
+    label: "Community" 
+    folder: "_posts/community"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "string", default: "individual_community_layout" }
+      - { label: "Categories", name: "categories", widget: "string", default: "community" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Production Date", name: "production_date", widget: "string" }
+      - { label: "Type", name: "type", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Images", name: "images", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "questions"
+    label: "Question" 
+    folder: "_posts/questions"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "string", default: "post" }
+      - { label: "Categories", name: "categories", widget: "string", default: "question" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

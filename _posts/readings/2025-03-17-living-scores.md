@@ -1,10 +1,10 @@
 ---
 layout: post
 categories: readings
-title: Living Scores
-author: Oana Avasilichioaei
-year: "2024"
-pages: "1"
+title: Murke's Collected Silences
+author: Heinrich Böll
+year: "1987"
+pages: "23"
 week: Week 1 - Sonic Silences
 color: blue
 link: /

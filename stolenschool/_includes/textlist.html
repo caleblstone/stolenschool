@@ -1,0 +1,19 @@
+<div class="textlist">
+
+    {% for post in site.categories.text %}
+        <div></div>    
+
+        <div class="titles">
+            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        </div>
+
+        <div class="bodytext">
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ post.url }}"><h3>Read more -></h3></a>
+        </div>
+
+        <div></div>
+
+    {% endfor %}
+
+</div>

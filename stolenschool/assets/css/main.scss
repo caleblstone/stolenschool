@@ -1,0 +1,117 @@
+---
+---
+
+html, body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.blue:hover{
+    background-color: #5AC4F8;
+}
+.pink:hover{
+    background-color: #FFD6F2;
+}
+.grey:hover{
+    background-color: #B4B4B4;
+}
+.green:hover{
+    background-color: #9CFC72;
+}
+.red:hover{
+    background-color: #F9D0C3;
+}
+.yellow:hover{
+    background-color: #FFF77F;
+}
+.dkblue{
+    background-color: #0000F5;
+}
+.dkpink{
+    background-color: #FFC7ED;
+}
+.dkgrey{
+    background-color: #666666;
+}
+.dkgreen{
+    background-color: #75FB4C;
+}
+.dkred{
+    background-color: #EC6236;
+}
+.dkyellow{
+    background-color: #FDF251;
+}
+
+
+body{
+//     display: grid;
+//   grid-template-columns: 1fr auto; /* Left takes remaining space, right has fixed width */
+  gap: 0px;
+  font-family: "logic-monospace", mono;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
+}
+
+h1 {
+    font-family: "logic-monospace", mono;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
+
+
+h2 {
+    font-family: "logic-monospace", mono;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
+
+h3{
+    font-family: "logic-monospace", mono;
+    font-style: italic;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+}
+
+a {
+    font-family: "logic-monoscript", mono;
+    color: black;
+
+    // h1:hover{
+    //     font-family: "logic-monoscript", mono;
+    // }
+}
+nav{
+    a{
+        font-family: "logic-monospace", mono;
+    font-weight: 400;
+    font-style: normal;
+    }
+}
+p{
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+@import "body";
+@import "header";
+@import "worklist";
+@import "questions";
+@import "individual_work";
+@import "textlist";
+
+    
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr; // Stack everything in one column
+        height: auto;
+    }
+
+}

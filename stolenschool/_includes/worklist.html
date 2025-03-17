@@ -1,0 +1,49 @@
+<div class="worklist">
+
+    <div class="currentClass">
+        <div class="courseTitle">
+            Theories, Practices, and Politics of Sound and Silence
+        </div>
+        <div class="currentWeek">
+            <span class="dot dkblue"></span> Week 1: Sonic Silences
+        </div>
+
+    </div>
+
+    <div class="listOfReadings">
+        {% for post in site.categories.readings %}
+        <a href="{{ post.link }}">
+            <div class="work {{ post.color }}">
+            
+                <div class="work_title">
+                    <h1>{{ post.title }}</h1>
+                    
+                </div>
+            
+                <div class="work_date">
+                    <h2>{{ post.author }}</h2>
+                    
+                </div>
+            
+                <div class="work_materials">
+                    <h2>{{ post.year }}</h2>
+                  
+                </div>
+            
+                <div class="work_dimensions">
+                    <h2>{{ post.pages }}</h2>
+                    
+                </div>
+    
+                <div class="work_week">
+                    <h2>{{ post.week }}</h2>
+                    
+                </div>
+                    
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    
+
+</div>

@@ -1,0 +1,11 @@
+---
+layout: post
+categories: readings
+title: Speech Sounds (in Bloodchild)
+author: Octavia Butler
+year: "2005"
+pages: 13 Pages
+week: Week 1 - Sonic Silences
+color: blue
+link: https://drive.google.com/uc?export=download&id=181OwTKR45knDl73UVFlHcY8RJn2l4i3Z
+---

@@ -10,6 +10,7 @@ collections:
     folder: "_posts/readings"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    order: ""
     fields:
       - { label: "Layout", name: "layout", widget: "string", default: "post" }
       - { label: "Categories", name: "categories", widget: "string", default: "readings" }

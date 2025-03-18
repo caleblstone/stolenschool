@@ -7,5 +7,6 @@ year: "2024"
 pages: 1 Page
 week: Week 1 - Sonic Silences
 color: blue
+color2: dkblue
 link: https://drive.google.com/uc?export=download&id=1q01ULsU1EtH4bivN7wyIbq_rjjr8Fnbz
 ---

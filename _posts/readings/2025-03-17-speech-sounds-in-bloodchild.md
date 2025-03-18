@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: readings
-title: Speech Sounds (in Bloodchild)
+title: '"Speech Sounds" -  Bloodchild'
 author: Octavia Butler
 year: "2005"
 pages: 13 Pages

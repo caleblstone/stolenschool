@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
-    "pagecrypt": "^6.1.1"
+  "dependencies": {
+    "staticrypt": "^3.5.3"
   }
 }

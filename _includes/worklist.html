@@ -11,7 +11,7 @@
     </div>
 
     <div class="listOfReadings">
-        {% for post in site.categories.readings | sort: "year" %}
+        {% for post in site.categories.readings reversed %}
         <a href="{{ post.link }}">
             <div class="work {{ post.color }}">
             

@@ -36,19 +36,20 @@ div.currentClass{
         justify-content: center;
         align-items: center;
     }
-   
-    .dot {
-        height: 12px;
-        width: 12px;
-        border-radius: 50%;
-        display: inline-block;
-        margin-right: 8px;
-      }
 }
+
+.dot {
+    height: 12px;
+    min-width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    // background-color: red;
+  }
 
 div.work{
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr 1fr 1fr; 
+    grid-template-columns: 2fr 2fr 1fr 1fr 1.5fr; 
     padding-left: 16px;
     padding-right: 16px;
 
@@ -66,6 +67,7 @@ div.work{
     }
     div{
         display: flex;
+        flex-direction: row;
         justify-content: left;
         align-items: center;
     }

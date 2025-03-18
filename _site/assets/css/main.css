@@ -107,6 +107,12 @@ div.body {
   height: 100vh;
 }
 
+@media (max-width: 768px) {
+  div.body {
+    height: 100dvh;
+    overflow: hidden;
+  }
+}
 header {
   height: 8vh;
   display: grid;
@@ -219,9 +225,10 @@ div.currentClass .currentWeek {
   justify-content: center;
   align-items: center;
 }
-div.currentClass .dot {
+
+.dot {
   height: 12px;
-  width: 12px;
+  min-width: 12px;
   border-radius: 50%;
   display: inline-block;
   margin-right: 8px;
@@ -229,7 +236,7 @@ div.currentClass .dot {
 
 div.work {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 1fr 1fr 1.5fr;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -247,8 +254,12 @@ div.work h1 {
 }
 div.work div {
   display: flex;
+  flex-direction: row;
   justify-content: left;
   align-items: center;
+}
+div.work div.work_title {
+  padding-right: 16px;
 }
 
 div.work:hover h1, div.work:hover h2 {

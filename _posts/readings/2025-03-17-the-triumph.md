@@ -3,7 +3,7 @@ layout: post
 categories: readings
 title: The Triumph
 author: Clarice Lispector
-year: "2015"
+year: ~1940
 pages: 5 Pages
 week: Week 1 - Sonic Silences
 color: blue

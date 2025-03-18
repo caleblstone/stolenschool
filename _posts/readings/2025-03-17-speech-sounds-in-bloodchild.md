@@ -3,7 +3,7 @@ layout: post
 categories: readings
 title: '"Speech Sounds" -  Bloodchild'
 author: Octavia Butler
-year: "2005"
+year: "1995"
 pages: 13 Pages
 week: Week 1 - Sonic Silences
 color: blue

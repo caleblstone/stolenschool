@@ -1,0 +1,11 @@
+---
+layout: post
+categories: readings
+title: '"Disquiet" - Nilling'
+author: Lisa Robertson
+year: "2012"
+pages: 15 Pages
+week: Week 2 - Writing Silence
+color: red
+link: /
+---

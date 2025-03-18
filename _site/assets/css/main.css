@@ -107,12 +107,6 @@ div.body {
   height: 100vh;
 }
 
-@media (max-width: 768px) {
-  div.body {
-    height: auto;
-    border: none;
-  }
-}
 header {
   height: 8vh;
   display: grid;
@@ -168,10 +162,21 @@ div.email h3 {
 
 @media (max-width: 768px) {
   div.email {
+    flex-direction: row;
+    margin-bottom: 8px;
+  }
+  div.header_navigation {
     display: none;
   }
+  div.title h1 {
+    margin: 0px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
   header {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
     position: sticky;
     top: 0px;
     background-color: white;
@@ -254,6 +259,10 @@ div.work:hover h1 {
 }
 
 @media (max-width: 768px) {
+  div.currentClass {
+    position: sticky;
+    top: 0px;
+  }
   div.work {
     display: grid;
     grid-template-columns: auto;

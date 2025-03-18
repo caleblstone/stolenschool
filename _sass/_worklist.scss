@@ -82,6 +82,15 @@ div.work:hover{
 }
 
 @media (max-width: 768px) {
+    div.currentClass{
+        position: sticky;
+        top: 0px;
+    }
+
+    div.worklist{
+        // height: 100vh;
+    }
+
     div.work{
         display: grid;
         grid-template-columns: auto;

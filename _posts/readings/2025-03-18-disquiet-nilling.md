@@ -8,5 +8,5 @@ pages: 15 Pages
 week: Week 2 - Writing Silence
 color: red
 color2: dkred
-link: /
+link: https://drive.google.com/uc?export=download&id=1aEwO-ZOaWDILz0hHwF18qWsZ156IjnTC
 ---

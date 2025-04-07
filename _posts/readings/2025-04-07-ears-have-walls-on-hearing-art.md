@@ -4,7 +4,7 @@ categories: readings
 title: "Ears Have Walls: On Hearing Art"
 author: Steve Connor
 year: "2005"
-pages: "17"
+pages: 17 Pages
 week: Week 3 - Writing Sound
 color: grey
 color2: dkgrey

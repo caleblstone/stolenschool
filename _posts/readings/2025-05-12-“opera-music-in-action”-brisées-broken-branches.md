@@ -6,7 +6,7 @@ author: Michel Leiris
 year: "1966"
 pages: 7 Pages
 week: Week 7 - Operation Theoperatricks
-color: dkblue
-color2: blue
+color: blue
+color2: dkblue
 link: https://drive.google.com/uc?export=download&id=1igN2LuFdoDj9hFUkneZktVCS7PnEZQU7
 ---

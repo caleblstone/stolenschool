@@ -6,7 +6,7 @@ author: Adrian Piper
 year: "1996"
 pages: 30 Pages
 week: Week 7 - Operation Theoperatricks
-color: dkblue
-color2: blue
+color: blue
+color2: dkblue
 link: https://drive.google.com/uc?export=download&id=1T9O9OdoaGhDRE85HamhqEFySMXkG_QgY
 ---

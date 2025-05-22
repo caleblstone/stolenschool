@@ -3,7 +3,7 @@ layout: post
 categories: readings
 title: "“The Queen’s Throat: Or, How to Sing” - The Queen’s Throat: Opera,
   Homosexuality and the Mystery of Desire"
-author: Wayne Kostembaum
+author: Wayne Koestenbaum
 year: "1993"
 pages: 22 Pages
 week: Week 7 - Operation Theoperatricks

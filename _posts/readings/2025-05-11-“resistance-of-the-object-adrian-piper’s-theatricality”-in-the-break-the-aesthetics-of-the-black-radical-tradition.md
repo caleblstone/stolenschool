@@ -6,7 +6,7 @@ title: "“Resistance of the Object: Adrian Piper’s Theatricality” - In the 
 author: Fred Moten
 year: "2003"
 pages: 22 Pages
-week: Week 7 - Operation Theoperatricks
+week: Week 7 - Operation Theoperatricks Part I
 color: blue
 color2: dkblue
 link: https://drive.google.com/uc?export=download&id=136_S0O-9YwcofEJTI3nKpxZzz8nUOYl5
